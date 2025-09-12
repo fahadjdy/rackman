@@ -1,0 +1,81 @@
+https://rackman.co.in/
+
+I want to build html website for rack Manufacturer and retailer
+Html page structur is detailed below
+
+company manufacture the industrial rack, storage rack and all types of rack 
+
+use google font  for
+for H1,H2 = "Argesta Display", serif"
+p tag = "Montserrat", sans-serif;
+
+
+Use color 
+#FE5D26
+#F2C078
+#FAEDCA
+#C1DBB3
+
+
+1. Navbar 
+    * Data *
+        -> responsive for mobile,computer and tablet
+        -> at container left side logo 
+        -> center menus like( Home, About, Services, Contact)
+        -> right side BUtton (Download Brocher)
+    * Design *
+        -> use lighten background and primary color
+        -> give hover effect of menu border-bottom 10px at li tag 
+        -> button design must on hover icon download display with animation and color of button should gradient lighten color 
+
+2. Hero section 
+        -> background of hero section gradient and it should be move like motion blure like morphism, use lighten color and bubble move with blury in the background 
+    * Data * 
+        -> Company Name , slogan and some description 
+        -> Call to action button | Get started button 
+        -> image of group of family rack category (AI Generated image)
+    * Design * 
+        -> left side company name with big size 
+        -> slogan  gray 
+        -> description light gray 
+        -> button for action with gradient effect in the button
+        -> use illestartor image of group of rikshaw png
+        -> at the backgound of vector image it should be some vector icone moving background of it. 
+
+3. About Section 
+        -> use white background 
+    * Data * 
+        -> left side image of illustrator rikshaw all types with grid of mix side like one grid size is 1*1,2*4,1*1 
+        -> add some illustrator vector shape moving at background of image 
+        -> circular badge at the bottom of an image with a centered “7” and a rotating circular text reading “7 years of experience” around it.
+        -> at right side Welcome to company name 
+        -> add description in goof title 
+        -> add some services with icon and hover effect
+
+4. Services section 
+    -> Add some company services related to rack body parts copany 
+    -> use some shap at card background and design well 
+    -> background of service section will be add some lighten color for section sapration 
+
+5. Brows By Category  
+    -> category slider with slider , only vector image of category should display with name  ,
+    -> image should display in border rounded
+
+6. Product lsiting 
+    -> add product card with beautiful design , use hover effect , button formal design for whatsapp share, call to action , product name 
+    -> border radius , 4 column card with display 12 product and add pagination 
+    -> pagination design must match related to primary color 
+
+7. Call to action section with some thought and give download button for brochure 
+
+8. why choose us section with some thoughts and icon 
+
+9. contact section 
+    -> left side email,contact and address and just below map 
+    -> right side get in touch form 
+
+10 footer design with 4 column 
+    -> about company and logo  with social media icon 
+    -> quick links 
+    -> latest product 
+    -> and subscrib section 
