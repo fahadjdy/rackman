@@ -213,72 +213,106 @@
     </section>
 
     <!-- Browse by Category Section -->
-    <section class="categories">
-        <div class="categories-container">
-            <div class="section-header">
-                <h2 class="section-title">Browse by Category</h2>
-                <p class="section-description">Explore our comprehensive range of rack solutions</p>
-            </div>
-            <div class="category-slider">
-                <div class="slider-container">
-                    <div class="category-item">
-                        <div class="category-image">
-                            <img src="/placeholder.svg?height=120&width=120" alt="Industrial Racks">
-                        </div>
-                        <h3>Industrial Racks</h3>
+   <!-- Include Swiper CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+<section class="categories">
+    <div class="categories-container">
+        <div class="section-header">
+            <h2 class="section-title">Browse by Category</h2>
+            <p class="section-description">Explore our comprehensive range of rack solutions</p>
+        </div>
+
+        <!-- Swiper -->
+        <div class="swiper category-swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide category-item">
+                    <div class="category-image">
+                        <img src="assets/img/product.png" alt="Industrial Racks">
                     </div>
-                    <div class="category-item">
-                        <div class="category-image">
-                            <img src="/placeholder.svg?height=120&width=120" alt="Warehouse Storage">
-                        </div>
-                        <h3>Warehouse Storage</h3>
-                    </div>
-                    <div class="category-item">
-                        <div class="category-image">
-                            <img src="/placeholder.svg?height=120&width=120" alt="Heavy Duty Racks">
-                        </div>
-                        <h3>Heavy Duty Racks</h3>
-                    </div>
-                    <div class="category-item">
-                        <div class="category-image">
-                            <img src="/placeholder.svg?height=120&width=120" alt="Pallet Racks">
-                        </div>
-                        <h3>Pallet Racks</h3>
-                    </div>
-                    <div class="category-item">
-                        <div class="category-image">
-                            <img src="/placeholder.svg?height=120&width=120" alt="Cantilever Racks">
-                        </div>
-                        <h3>Cantilever Racks</h3>
-                    </div>
-                    <div class="category-item">
-                        <div class="category-image">
-                            <img src="/placeholder.svg?height=120&width=120" alt="Mezzanine Systems">
-                        </div>
-                        <h3>Mezzanine Systems</h3>
-                    </div>
-                    <div class="category-item">
-                        <div class="category-image">
-                            <img src="/placeholder.svg?height=120&width=120" alt="Mobile Racks">
-                        </div>
-                        <h3>Mobile Racks</h3>
-                    </div>
-                    <div class="category-item">
-                        <div class="category-image">
-                            <img src="/placeholder.svg?height=120&width=120" alt="Display Racks">
-                        </div>
-                        <h3>Display Racks</h3>
-                    </div>
+                    <h3>Industrial Racks</h3>
                 </div>
-                <button class="slider-btn prev-btn" onclick="slideCategories('prev')">
-                    <i class="fas fa-chevron-left"></i>
-                </button>
-                <button class="slider-btn next-btn" onclick="slideCategories('next')">
-                    <i class="fas fa-chevron-right"></i>
-                </button>
+                <div class="swiper-slide category-item">
+                    <div class="category-image">
+                        <img src="assets/img/product.png" alt="Warehouse Storage">
+                    </div>
+                    <h3>Warehouse Storage</h3>
+                </div>
+                <div class="swiper-slide category-item">
+                    <div class="category-image">
+                        <img src="assets/img/product.png" alt="Heavy Duty Racks">
+                    </div>
+                    <h3>Heavy Duty Racks</h3>
+                </div>
+                <div class="swiper-slide category-item">
+                    <div class="category-image">
+                        <img src="assets/img/product.png" alt="Pallet Racks">
+                    </div>
+                    <h3>Pallet Racks</h3>
+                </div>
+                <div class="swiper-slide category-item">
+                    <div class="category-image">
+                        <img src="assets/img/product.png" alt="Cantilever Racks">
+                    </div>
+                    <h3>Cantilever Racks</h3>
+                </div>
+                <div class="swiper-slide category-item">
+                    <div class="category-image">
+                        <img src="assets/img/product.png" alt="Mezzanine Systems">
+                    </div>
+                    <h3>Mezzanine Systems</h3>
+                </div>
+                <div class="swiper-slide category-item">
+                    <div class="category-image">
+                        <img src="assets/img/product.png" alt="Mobile Racks">
+                    </div>
+                    <h3>Mobile Racks</h3>
+                </div>
+                <div class="swiper-slide category-item">
+                    <div class="category-image">
+                        <img src="assets/img/product.png" alt="Display Racks">
+                    </div>
+                    <h3>Display Racks</h3>
+                </div>
+            </div>
+            
+            <!-- Swiper navigation buttons -->
+            <div class="btn-prev">
+                <i class="fa fa-angle-left"></i>
+            </div>
+            <div class="btn-next">
+                <i class="fa fa-angle-right"></i>
             </div>
         </div>
-    </section>
+    </div>
+</section>
+
+<!-- Include Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+<script>
+const swiper = new Swiper(".category-swiper", {
+    slidesPerView: 6,
+    spaceBetween: 20,
+    loop: true,
+    navigation: {
+        nextEl: ".btn-next",
+        prevEl: ".btn-prev",
+    },
+    breakpoints: {
+        0: {        // mobile
+            slidesPerView: 2,
+        },
+        768: {      // tablet
+            slidesPerView: 3,
+        },
+        1024: {     // desktop
+            slidesPerView: 4,
+        }
+    },
+});
+</script>
+
 
     <!-- Products Section -->
     <section class="products">

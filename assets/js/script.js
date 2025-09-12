@@ -48,7 +48,7 @@ const products = [
     name: "Heavy Duty Industrial Rack",
     description: "High-capacity storage solution for industrial applications",
     price: "₹25,000",
-    image: "/placeholder.svg?height=200&width=300",
+    image: "assets/img/product.png",
     badge: "Best Seller",
   },
   {
@@ -56,7 +56,7 @@ const products = [
     name: "Warehouse Pallet Rack",
     description: "Efficient pallet storage system for warehouses",
     price: "₹18,500",
-    image: "/placeholder.svg?height=200&width=300",
+    image: "assets/img/product.png",
     badge: "Popular",
   },
   {
@@ -64,7 +64,7 @@ const products = [
     name: "Cantilever Storage Rack",
     description: "Perfect for long and bulky item storage",
     price: "₹22,000",
-    image: "/placeholder.svg?height=200&width=300",
+    image: "assets/img/product.png",
     badge: "New",
   },
   {
@@ -72,7 +72,7 @@ const products = [
     name: "Mobile Storage System",
     description: "Space-saving mobile rack solution",
     price: "₹35,000",
-    image: "/placeholder.svg?height=200&width=300",
+    image: "assets/img/product.png",
     badge: "Premium",
   },
   {
@@ -80,7 +80,7 @@ const products = [
     name: "Display Rack Unit",
     description: "Attractive display solution for retail spaces",
     price: "₹12,500",
-    image: "/placeholder.svg?height=200&width=300",
+    image: "assets/img/product.png",
     badge: "Affordable",
   },
   {
@@ -88,7 +88,7 @@ const products = [
     name: "Mezzanine Floor System",
     description: "Double your storage space with mezzanine floors",
     price: "₹45,000",
-    image: "/placeholder.svg?height=200&width=300",
+    image: "assets/img/product.png",
     badge: "Custom",
   },
   {
@@ -96,7 +96,7 @@ const products = [
     name: "Drive-In Rack System",
     description: "High-density storage for similar products",
     price: "₹28,000",
-    image: "/placeholder.svg?height=200&width=300",
+    image: "assets/img/product.png",
     badge: "Efficient",
   },
   {
@@ -104,7 +104,7 @@ const products = [
     name: "Push Back Rack",
     description: "LIFO storage system for inventory management",
     price: "₹32,000",
-    image: "/placeholder.svg?height=200&width=300",
+    image: "assets/img/product.png",
     badge: "Smart",
   },
   {
@@ -112,7 +112,7 @@ const products = [
     name: "Flow Rack System",
     description: "Gravity-fed storage for FIFO inventory",
     price: "₹38,000",
-    image: "/placeholder.svg?height=200&width=300",
+    image: "assets/img/product.png",
     badge: "Advanced",
   },
   {
@@ -120,7 +120,7 @@ const products = [
     name: "Multi-Tier Rack",
     description: "Maximize vertical space utilization",
     price: "₹26,500",
-    image: "/placeholder.svg?height=200&width=300",
+    image: "assets/img/product.png",
     badge: "Versatile",
   },
   {
@@ -128,7 +128,7 @@ const products = [
     name: "Automated Storage Rack",
     description: "Fully automated storage and retrieval system",
     price: "₹85,000",
-    image: "/placeholder.svg?height=200&width=300",
+    image: "assets/img/product.png",
     badge: "High-Tech",
   },
   {
@@ -136,7 +136,7 @@ const products = [
     name: "Selective Pallet Rack",
     description: "Most common and versatile pallet rack system",
     price: "₹20,000",
-    image: "/placeholder.svg?height=200&width=300",
+    image: "assets/img/product.png",
     badge: "Standard",
   },
 ]
@@ -165,8 +165,6 @@ function loadProducts() {
       </div>
       <div class="product-content">
         <h3 class="product-name">${product.name}</h3>
-        <p class="product-description">${product.description}</p>
-        <div class="product-price">${product.price}</div>
         <div class="product-actions">
           <button class="product-btn whatsapp-btn" onclick="shareOnWhatsApp('${product.name}')">
             <i class="fab fa-whatsapp"></i>
